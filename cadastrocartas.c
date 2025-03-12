@@ -4,11 +4,12 @@ int main() {
     char estado1, estado2;
     char  codigo1[50], codigo2[50];
     char nome1[50], nome2[50];
-    float populacao1, populacao2;
+    unsigned long int  populacao1, populacao2;
     float area1, area2, pib1, pib2;
     int pontos_turisticos1, pontos_turisticos2;
     float pib_per_capita1, pib_per_capita2;
     float densidade1, densidade2;
+    float superpoder;
 
     // Cadastro da primeira carta
     printf("\n--- Cadastro da Primeira Cidade ---\n");
@@ -91,6 +92,9 @@ int main() {
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos2);
     printf("pib per capita: %.2f\n", pib_per_capita2);
     printf("densidade: %.2f\n" , densidade2);
+
+    //comparaçoes de cartas
+    
     
     printf("\n============================\n");
     return 0;
